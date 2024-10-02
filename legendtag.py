@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4,5],"y",linewidth=5,zorder=2)
+plt.plot([11,12,13,14,15],"b",linewidth=5,zorder=2)
+plt.plot([5,4,3,2,1],"r",linewidth=5,zorder=2)
+plt.plot([32,23,45,12,42],"o",linewidth=5,zorder=2)
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.title("Example graph")
+plt.legend(["sales","marketing","IT","HR"])
+plt.show()
